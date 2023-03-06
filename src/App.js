@@ -5,9 +5,10 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
-import Header from './components/pages/Header';
+// import Header from './components/pages/Header';
 import Footer from './components/pages/Footer';
 import Navbar from './components/pages/Navbar';
+import './tailwind.css';
 
 
 function App() {
@@ -15,14 +16,15 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Header>
+     
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/>} />
             <Route path="/projects/*" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+           
           </Routes>
-        </Header>
+       
         <Footer />
       </div>
     </Router>
