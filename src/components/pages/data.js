@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "E-commerce website for selling handmade ceramics",
-      image: "./azad-studio.png",
+      image: "../azad-studio.png",
       link: "https://azadstudio.com/",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         subtitle: "MERN Stack",
         description:
           "E-commerce website for selling handmade ceramics",
-        image: "./azad-studio.png",
+        image: "./portrait.jpg",
         link: "https://azadstudio.com/",
     },
     {
