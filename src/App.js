@@ -7,7 +7,8 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 // import Header from './components/pages/Header';
 import Footer from './components/pages/Footer';
-import Navbar from './components/pages/Navbar';
+//import Navbar from './components/pages/Navbar';
+import NavTabs from './components/NavTabs';
 import './tailwind.css';
 
 
@@ -15,17 +16,25 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
-     
+       
+      <NavTabs />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/projects/*" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+          {/*
+<Route path="/about" element={<About/>} />
+<Route path="/projects/*" element={<Projects />} />
+<Route path="/contact" element={<Contact />} />
+*/}
+
+
            
           </Routes>
        
-        <Footer />
+       {/*
+ < Footer />
+*/}
+
+
       </div>
     </Router>
   );
