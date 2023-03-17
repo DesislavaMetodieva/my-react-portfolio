@@ -27,8 +27,9 @@ ReactDOM.render(
         <Route path="/contact" element={<Contact />} /> 
         */}
       </Routes>
-      </Wrapper>
       <Footer />
+      </Wrapper>
+    
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
