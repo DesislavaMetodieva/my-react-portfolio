@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/pages/Header';
+import Footer from './components/pages/Footer'; 
 // import Contact from './components/pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -27,6 +28,7 @@ ReactDOM.render(
         */}
       </Routes>
       </Wrapper>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
