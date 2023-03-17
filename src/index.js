@@ -6,11 +6,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/pages/Header';
 // import Contact from './components/pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import reportWebVitals from './reportWebVitals';
+
+const Wrapper = ({ children }) => {
+  return <div style={{ margin: '0 auto', maxWidth: '1640px' }}>{children}</div>;
+};
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+    <Wrapper>
       <Header />
       
       <Routes>
@@ -22,13 +26,10 @@ ReactDOM.render(
         <Route path="/contact" element={<Contact />} /> 
         */}
       </Routes>
-       
+      </Wrapper>
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
+
