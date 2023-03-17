@@ -1,25 +1,21 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import logo from "./logo.svg";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Avatar from '@mui/material/Avatar';
+import { deepOrange} from '@mui/material/colors';
 
 const Header = () => {
   return (
     <Navbar expand="lg">
       <LinkContainer to="/">
         <Navbar.Brand>
-          <img
-            src={logo}
-            height="75"
-            className="d-inline-block align-top ml-2"
-            alt="Your logo"
-          />
+        <Avatar sx={{ bgcolor: deepOrange[500], marginLeft: '24px'}}>DM</Avatar>
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ms-auto d-flex gap-4">
+        <Nav className="ms-auto d-flex gap-4 me-4">
           <LinkContainer to="/">
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
