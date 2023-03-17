@@ -1,50 +1,50 @@
 export const projects = [
-    {
-      title: "Azad-Website",
-      subtitle: "MERN Stack",
-      description:
-        "E-commerce website for selling handmade ceramics",
-      image: "../azad-studio.png",
-      link: "https://azadstudio.com/",
-    },
-    {
-        title: "Azad-Website",
-        subtitle: "MERN Stack",
-        description:
-          "E-commerce website for selling handmade ceramics",
-        image: "./portrait.jpg",
-        link: "https://azadstudio.com/",
-    },
-    {
-        title: "Azad-Website",
-        subtitle: "MERN Stack",
-        description:
-          "E-commerce website for selling handmade ceramics",
-        image: "./azad-studio.png",
-        link: "https://azadstudio.com/",
-    },
-    {
-        title: "Azad-Website",
-        subtitle: "MERN Stack",
-        description:
-          "E-commerce website for selling handmade ceramics",
-        image: "./azad-studio.png",
-        link: "https://azadstudio.com/",
-    },
-    {
-        title: "Azad-Website",
-      subtitle: "MERN Stack",
-      description:
-        "E-commerce website for selling handmade ceramics",
-      image: "./azad-studio.png",
-      link: "https://azadstudio.com/",
-      },
-      {
-        title: "Azad-Website",
-      subtitle: "MERN Stack",
-      description:
-        "E-commerce website for selling handmade ceramics",
-      image: "./azad-studio.png",
-      link: "https://azadstudio.com/",
-      },
-  ];
+  {
+    id: 0,
+    title: "Azad-Studio",
+    repoLink: "https://github.com/DesislavaMetodieva/Azad-Website",
+    description: "E-commerce website for selling handmade ceramics",
+    image: "./azad-studio.png",
+    link: "https://azadstudio.com/",
+  },
+  {
+    id: 1,
+    title: "My Bootstrap portfolio",
+    repoLink: "https://github.com/DesislavaMetodieva/Bootstrap-Portfolio",
+    description: "My project portfolio built with Bootstrap",
+    image: "./bootstrap-portfolio.png",
+    link: "https://desislavametodieva.github.io/Bootstrap-Portfolio/",
+  },
+  {
+    id: 2,
+    title: "The Daily Planner App",
+    repoLink: "https://github.com/DesislavaMetodieva/daily-planner-app",
+    description: "Calendar application that allows saving events",
+    image: "./daily-planner.png",
+    link: "https://desislavametodieva.github.io/daily-planner-app/",
+  },
+  {
+    id: 3,
+    title: "Password generator app",
+    repoLink: "https://github.com/DesislavaMetodieva/Password-generator",
+    description: "App which generates random password",
+    image: "./password-generator.png",
+    link: "https://desislavametodieva.github.io/Password-generator/",
+  },
+  {
+    id: 4,
+    title: "MoodMovies",
+    repoLink: "https://github.com/heirfanahmed/mood-movies",
+    description: "A weather app which recommends movies based on the current weather",
+    image: "./mood-movies.png",
+    link: "https://heirfanahmed.github.io/mood-movies/",
+  },
+  {
+    id: 5,
+    title: "README generator app",
+    repoLink: "https://github.com/DesislavaMetodieva/readme-generator",
+    description: "Command-line application that dynamically generates a README file",
+    image: "./readme-generator.png",
+    link: "https://github.com/DesislavaMetodieva/readme-generator",
+  },
+];
