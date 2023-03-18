@@ -8,10 +8,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import LinkIcon from '@mui/icons-material/Link';
 
+
+
 export default function ProjectPage({ description, imageUrl, title, repoLink, appLink } ) {
 
   return (
+
     <Card sx={{ maxWidth: 400 }}>
+   
       <CardMedia
         sx={{ height: 240 }}
         image={imageUrl}
@@ -37,6 +41,8 @@ export default function ProjectPage({ description, imageUrl, title, repoLink, ap
         </IconButton>
         </a>
       </CardActions>
+    
     </Card>
+   
   );
 }
