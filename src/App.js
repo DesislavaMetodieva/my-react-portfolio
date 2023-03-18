@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
 //import ReactDOM from 'react-dom/client';
-// import Projects from './components/pages/Projects';
+import Projects from './components/pages/Projects';
 // import Contact from './components/pages/Contact';
 import './tailwind.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -22,8 +22,8 @@ function App() {
         <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-              {/*  <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />  */}
+               <Route path="/projects" element={<Projects />} />
+           {/* <Route path="/contact" element={<Contact />} />  */}
           
           </Routes>
         <Footer />
