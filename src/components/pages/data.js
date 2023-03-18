@@ -4,7 +4,7 @@ export const projects = [
     title: "Azad-Studio",
     repoLink: "https://github.com/DesislavaMetodieva/Azad-Website",
     description: "E-commerce website for selling handmade ceramics",
-    image: "./azad-studio.png",
+    image: "./azad-studio",
     link: "https://azadstudio.com/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: "My Bootstrap portfolio",
     repoLink: "https://github.com/DesislavaMetodieva/Bootstrap-Portfolio",
     description: "My project portfolio built with Bootstrap",
-    image: "./bootstrap-portfolio.png",
+    image: "./bootstrap-portfolio",
     link: "https://desislavametodieva.github.io/Bootstrap-Portfolio/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     title: "The Daily Planner App",
     repoLink: "https://github.com/DesislavaMetodieva/daily-planner-app",
     description: "Calendar application that allows saving events",
-    image: "./daily-planner.png",
+    image: "./daily-planner",
     link: "https://desislavametodieva.github.io/daily-planner-app/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: "Password generator app",
     repoLink: "https://github.com/DesislavaMetodieva/Password-generator",
     description: "App which generates random password",
-    image: "./password-generator.png",
+    image: "./password-generator",
     link: "https://desislavametodieva.github.io/Password-generator/",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     title: "MoodMovies",
     repoLink: "https://github.com/heirfanahmed/mood-movies",
     description: "A weather app which recommends movies based on the current weather",
-    image: "./mood-movies.png",
+    image: "./mood-movies",
     link: "https://heirfanahmed.github.io/mood-movies/",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     title: "README generator app",
     repoLink: "https://github.com/DesislavaMetodieva/readme-generator",
     description: "Command-line application that dynamically generates a README file",
-    image: "./readme-generator.png",
+    image: "./readme-generator",
     link: "https://github.com/DesislavaMetodieva/readme-generator",
   },
 ];
