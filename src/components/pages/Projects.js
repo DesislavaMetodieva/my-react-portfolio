@@ -9,11 +9,12 @@ const Projects = () => {
         <h2 className="mainHeading">Please see my past work</h2>
       {projects.map((project) => (
         <ProjectPage
-          key={project.title}
+          key={project.id}
           title={project.title}
           description={project.description}
           imageUrl={project.image}
           repoLink={project.repoLink}
+          appLink={project.link}
         />
       ))}
       </div>
