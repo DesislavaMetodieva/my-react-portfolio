@@ -1,32 +1,33 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
-const ProjectPage = ({ description, imageUrl, title, repoLink }) => {
-    console.log(imageUrl)
-    console.log(repoLink)
+export default function ProjectPage({ description, imageUrl, title, repoLink } ) {
+
   return (
-    <div className="card-container">
-
-      <div data-custom-attribute="true">
-     
-   
-      </div>
-      <div className="card-body">
-        
-        <h1>{title}</h1>
-        <h3>{description}</h3>
-          <img src={imageUrl} alt={title} /> 
-          <a href={`${repoLink}`}>Visit repo link</a> 
-      </div>
-    </div>
+    <Card sx={{ maxWidth: 400 }}>
+      <CardMedia
+        sx={{ height: 240 }}
+        image={imageUrl}
+        title={title}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         {title}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         {description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
   );
-};
-
-ProjectPage.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  imageUrl: PropTypes.string,
-  repoLink: PropTypes.string,
-};
-
-export default ProjectPage;
+}
