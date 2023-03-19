@@ -1,4 +1,8 @@
+#  [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)](https://img.shields.io/badge/license-MIT-brightgreen)
+
 # My React Portfolio
+
+### Description
 
 My React Portfolio app is a showcase of my latest front-end development projects. It highlights my skills and expertise in creating responsive and visually appealing web pages using modern front-end technologies such as React, CSS, and HTML. Also, the app was deployed with Netlify.
 
