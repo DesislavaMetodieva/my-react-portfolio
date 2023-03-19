@@ -19,10 +19,10 @@ function Footer() {
       sx={{
         py: 3,
         px: 2,
-        backgroundColor: '#E4DCCF'
+        backgroundColor: '#F5EAEA'
       }}
     >
-      <Container maxWidth="sm" sx={{ display: 'flex', justifyContent: 'center',  backgroundColor: '#E4DCCF' }} className>
+      <Container maxWidth="sm" sx={{ display: 'flex', justifyContent: 'center',  backgroundColor: '#F5EAEA' }} className>
         <Link href="https://github.com/DesislavaMetodieva" target="_blank" rel="noopener" sx={{ mx: 2 }}>
           <GitHubIcon />
         </Link>
@@ -36,7 +36,7 @@ function Footer() {
           <DescriptionIcon />
         </Link>
       </Container>
-      <Typography variant="body2" color={mainFont} sx={{ mt: 1, display: 'flex', justifyContent: 'center', fontFamily: "'Montserrat', sans-serif",  backgroundColor: '#E4DCCF'}}>
+      <Typography variant="body2" color={mainFont} sx={{ mt: 1, display: 'flex', justifyContent: 'center', fontFamily: "'Montserrat', sans-serif",  backgroundColor: '#F5EAEA'}}>
         {'© '}
         {new Date().getFullYear()}
         {' Your Website. All rights reserved.'}

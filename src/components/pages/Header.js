@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Avatar from '@mui/material/Avatar';
-import { deepOrange} from '@mui/material/colors';
+import { purple } from '@mui/material/colors';
 import './Header.css';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
     <Navbar expand="lg" className="header">
       <LinkContainer to="/">
         <Navbar.Brand>
-        <Avatar sx={{ bgcolor: deepOrange[500], marginLeft: '24px'}}>DM</Avatar>
+        <Avatar sx={{ bgcolor: purple[300], marginLeft: '24px'}}>DM</Avatar>
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
