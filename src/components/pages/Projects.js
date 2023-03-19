@@ -2,15 +2,20 @@ import React from "react";
 import { projects } from "./data";
 import ProjectPage from "./ProjectPage";
 import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const Projects = () => {
 
   return (
-      <div>
-        <h2 className="mainHeading">Please see my past work</h2>
-        <Grid container spacing={6}>
-          <Grid item>
+   
+    <Box sx={{ width: '100%', textAlign: 'center' }}>
+
+       <Typography variant="h3" mt={10} md={10} gutterBottom>
+       Please see my past work
+    </Typography> 
       {projects.map((project) => (
+       
         <ProjectPage
           key={project.id}
           title={project.title}
@@ -19,10 +24,10 @@ const Projects = () => {
           repoLink={project.repoLink}
           appLink={project.link}
         />
+       
       ))}
-      </Grid>
-      </Grid>
-      </div>
+    
+    </Box>
   );
 };
 
