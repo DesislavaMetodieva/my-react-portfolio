@@ -3,9 +3,6 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-     {/* <h1>Home Page</h1>
-      <div className="bg-blue-500 text-white p-4">Desi's portfolio</div>*/}
       <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -39,7 +36,7 @@ function Home() {
         </div>
       </div>
     </section>
-    </div>
+   
   );
 }
 

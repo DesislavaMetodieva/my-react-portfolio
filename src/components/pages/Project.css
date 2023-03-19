@@ -1,5 +1,12 @@
 .grid-container {
+    margin-top: 64px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-layout {
+    width: 35%;
+    margin-bottom: 64px;
+    margin-top: 64px;
 }

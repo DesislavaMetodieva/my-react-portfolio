@@ -7,33 +7,11 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import LinkIcon from '@mui/icons-material/Link';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import { withStyles } from '@mui/material/styles'
-
-// const useStyles = withStyles({
-//   gridList: {
-//     width: "100%",
-//     height: "auto"
-//   },
-//   card: {
-//     maxWidth: 160,
-//     height: "100%"
-//   }
-// });
-
-
 
 export default function ProjectPage({ description, imageUrl, title, repoLink, appLink } ) {
 
   return (
-   
-   
-  // <Grid container sx={{ flexWrap: 'wrap', display: 'flex' , width: '100%'}} >
-      
-  //   <Grid item xs={6} sm={6} md={6} lg={6} >
-    
-    <Card >
+    <Card className='card-layout'>
    
       <CardMedia
         sx={{ height: 300 }} 

@@ -25,7 +25,7 @@ function Footer() {
             : theme.palette.grey[800],
       }}
     >
-      <Container maxWidth="sm" sx={{ display: 'flex', justifyContent: 'center' }}>
+      <Container maxWidth="sm" sx={{ display: 'flex', justifyContent: 'center' }} className>
         <Link href="https://github.com/DesislavaMetodieva" target="_blank" rel="noopener" sx={{ mx: 2 }}>
           <GitHubIcon />
         </Link>
@@ -54,7 +54,7 @@ export default function StickyFooter() {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        minHeight: '100vh',
+        minHeight: '33vh',
       }}
     >
       <CssBaseline />
