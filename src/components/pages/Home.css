@@ -1,0 +1,11 @@
+.button-custom {
+    background-color: #002B5B;
+    color: #F9F5EB;
+    text-decoration: none;
+    transition: background-color 1s ease;
+}
+
+.button-custom:hover {
+    background-color: #EB455F;
+    color: #F9F5EB;
+}

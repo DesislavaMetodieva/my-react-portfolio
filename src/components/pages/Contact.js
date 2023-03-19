@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -35,7 +36,7 @@ const Contact = () => {
           </label>
           <textarea className="form-control" id="message" rows={8} required placeholder="Enter your message"/>
         </div>
-        <button className="btn btn-primary" type="submit">
+        <button className="button-custom border-0 py-2 px-6 rounded text-lg inline-flex font-semibold" type="submit">
           {formStatus}
         </button>
       </form>
