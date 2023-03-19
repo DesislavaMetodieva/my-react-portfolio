@@ -6,3 +6,9 @@
 .card-effect:hover {
     box-shadow: rgba(235, 178, 207, 0.653) -10px 10px, rgba(226, 159, 190, 0.705) -20px 20px ;
 }
+
+@media only screen and (max-width: 768px)  {
+    .MuiPaper-root {
+        width: 80% !important;
+    }
+}

@@ -1,11 +1,18 @@
 .button-custom {
-    background-color: #002B5B;
+    background-color: #002B5B !important;
     color: #F9F5EB;
     text-decoration: none;
     transition: background-color 1s ease;
 }
 
 .button-custom:hover {
-    background-color: #3A1078;
+    background-color: #3A1078 !important;
 }
+
+@media only screen and (max-width: 768px)  {
+    .smallScreen {
+        width: 80% !important;
+    }
+}
+
 
