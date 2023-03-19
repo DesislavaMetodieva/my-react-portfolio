@@ -29,10 +29,10 @@ export default function ProjectPage({ description, imageUrl, title, repoLink, ap
   return (
    
    
-    <Grid container /*rowSpacing={10} columnSpacing={3} sx={{ marginLeft: '80px'}} */>
-       
-      <Grid item xs={6} sm={6} md={4} lg={4} >
-     
+  // <Grid container sx={{ flexWrap: 'wrap', display: 'flex' , width: '100%'}} >
+      
+  //   <Grid item xs={6} sm={6} md={6} lg={6} >
+    
     <Card >
    
       <CardMedia
@@ -62,8 +62,9 @@ export default function ProjectPage({ description, imageUrl, title, repoLink, ap
       </CardActions>
     
      </Card>
-    </Grid>
-   </Grid>
+    
+  //   </Grid>
+  //  </Grid>
   
    
   );

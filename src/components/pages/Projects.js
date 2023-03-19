@@ -4,6 +4,8 @@ import ProjectPage from "./ProjectPage";
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import './Project.css';
+
 
 const Projects = () => {
 
@@ -14,6 +16,7 @@ const Projects = () => {
        <Typography variant="h3" mt={10} md={10} gutterBottom>
        Please see my past work
     </Typography> 
+    <div className='grid-container'>
       {projects.map((project) => (
        
         <ProjectPage
@@ -26,7 +29,7 @@ const Projects = () => {
         />
        
       ))}
-    
+    </div>
     </Box>
   );
 };
